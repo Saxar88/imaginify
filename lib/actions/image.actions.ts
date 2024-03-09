@@ -122,7 +122,7 @@ export async function getAllImages({
 			.expression(expression)
 			.execute();
 
-		const resourceIds = resources.map((resource: any) => resource.public._id);
+		const resourceIds = resources.map((resource: any) => resource.public_id);
 
 		let query = {};
 
